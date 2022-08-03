@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::before {
+  position: absolute;
+  content: "";
+  height: 800px;
+  width: 100%;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  background-image: url(../Images/page3-exploration.png);
+  background-size: cover;
+} 
+
+body {
+  height: 100vh;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.page {
+  margin: 63px 0 0 102px;
+  max-width: 648px;
+}
+
+h1 {
+  margin-bottom: 16px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  color: #E1E1E6; 
+}
+
+p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #E1E1E6;
+}
+
+@media (max-width: 1280px) {
+  body::before {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 840px) {
+  .page {
+    margin: 63px auto 0;
+    padding: 0 18px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
