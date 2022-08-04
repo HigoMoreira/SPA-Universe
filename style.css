@@ -17,11 +17,25 @@ header {
   gap: 32px;
 }
 
-header svg {
-  transition: 3s;
+#vector {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: transparent;
+  font-size: 40px;
+  line-height: 50px;
+  cursor: wait;
 }
 
-header svg:hover{
+header svg {
+  transition: 3s;
+  position: absolute;
+  z-index: -1;
+}
+
+header #vector:hover svg{
   transform: rotate(350deg) scale(1.5);
   cursor: wait;
 }
