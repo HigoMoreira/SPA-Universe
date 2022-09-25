@@ -1,4 +1,4 @@
-# SPA Universe 💫
+# SPA Universe 🌌
 
 Iniciando os estudos de SPA com a Single Page Aplication Universe em JavaScript.
 
@@ -63,7 +63,7 @@ Para conferir a aplicação, acesse:
 #
 # 🌎 English
 
-# SPA Universe 💫
+# SPA Universe 🌌
 
 Starting SPA studies with the Single Page Application Universe in JavaScript.
 
